@@ -1,0 +1,46 @@
+#footer-wrapper {
+
+	.footer-box {
+		// padding: 5rem;
+
+	}
+
+	.footer-siegel {
+		img {
+			margin: 1.875rem;
+			width: auto;
+			height: 75px;
+			object-fit: contain;
+		}
+	}
+
+	nav {
+
+		.nav-link {
+			font-size: 13px;
+			font-style: normal;
+			font-weight: 400;
+			text-transform: uppercase;
+
+			&:hover, &:focus{
+				color: $main_brand !important;
+			}
+
+			&.active {
+				color: $main_brand !important;
+			}
+		}
+	}
+
+	.footer-copyright {
+		font-size: 12px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 26px;
+		letter-spacing: 0px;
+
+		padding-top: 20px;
+		padding-bottom: 70px;
+	}
+
+}

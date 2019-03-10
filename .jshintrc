@@ -1,0 +1,21 @@
+{
+	"curly": true,
+	"eqeqeq": true,
+	"eqnull": true,
+	"expr": true,
+	"latedef": true,
+	"onevar": true,
+	"noarg": true,
+	"node": true,
+	"trailing": true,
+	"undef": true,
+	"unused": true,
+	"jquery": true,
+	"browser": true,
+	"forin": true,
+	"freeze": true,
+	"futurehostile": true,
+	"varstmt": true,
+	"esversion": 6,
+	"predef": ["Vue", "axios", "app"]
+}

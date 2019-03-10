@@ -1,0 +1,194 @@
+.main-banner {
+	display: block;
+	position: relative;
+	// min-height: 200px;
+	// height: 200px;
+	background-position: top center;
+	background-size: cover;
+	z-index: auto;
+
+	&::before {
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: rgba(#000, .5);
+	}
+
+	&.darker {
+		&::before {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: rgba(#191919, .8);
+		}
+	}
+
+	.banner-content {
+		position: relative;
+		z-index: 10;
+		padding: 100px 15px;
+
+		.main-img {
+			width: 100%;
+			max-width: 550px;
+		}
+
+		.main-text {
+			font-size: 52px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 70px;
+			letter-spacing: 0px;
+			text-align: center;
+			color: #ffffff;
+		}
+
+		.sub-text {
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 30px;
+			letter-spacing: 0px;
+			text-align: center;
+			color: $main_brand;
+		}
+
+		.sub-header {
+			font-size: 28px;
+			font-style: normal;
+			font-weight: 600;
+			line-height: 30px;
+			letter-spacing: 0px;
+			text-align: center;
+			color: #fff;
+		}
+
+		.action-button {
+			font-size: 15px;
+			font-weight: 600;
+			font-style: normal;
+			line-height: 30px;
+			letter-spacing: 0px;
+			color: #fff;
+			display: inline-block;
+			margin-bottom: 0;
+			text-align: center;
+			vertical-align: middle;
+			cursor: pointer;
+			background-color: $main_brand;
+			border: 1px solid transparent;
+			text-decoration: none;
+			white-space: nowrap;
+			outline: none;
+			position: relative;
+			user-select: none;
+			-webkit-transition: all 0.3s ease;
+			max-width: 100%;
+
+			&:hover {
+				background-color: $sub_brand;
+			}
+		}
+
+	}
+
+	.img_hover_action_content {
+		position: relative;
+		z-index: 10;
+		overflow: hidden;
+
+		img {
+			max-width: 100%;
+			transition: transform .25s;
+		}
+
+		.action-button {
+			position: absolute;
+			z-index: 11;
+			top: calc( 50% - 24px );
+			left: calc( 50% - 106px );
+
+
+			transition: opacity .25s, transform .25s;
+			opacity: 0;
+			transform: scale(.2);
+
+			font-size: 15px;
+			font-weight: 600;
+			font-style: normal;
+			line-height: 30px;
+			letter-spacing: 0px;
+			color: #fff;
+			display: inline-block;
+			margin-bottom: 0;
+			text-align: center;
+			vertical-align: middle;
+			cursor: pointer;
+			background-color: $main_brand;
+			border: 1px solid transparent;
+			text-decoration: none;
+			white-space: nowrap;
+			outline: none;
+			user-select: none;
+			-webkit-transition: all 0.3s ease;
+			max-width: 100%;
+		}
+
+
+		&::after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0);
+			transition: background .25s;
+			pointer-events: none;
+		}
+
+		&:hover {
+
+			img {
+				transform: scale(1.05);
+			}
+
+			.action-button {
+				opacity: 1;
+				transform: scale(1);
+			}
+
+			&::after {
+				background: rgba(0,0,0,.7);
+			}
+
+		}
+
+	}
+
+	.site-jump {
+		position: relative;
+		// bottom: 0;
+		z-index: 20;
+		display: block;
+		width: 100%;
+		background-color: white; // rgba($primary, .8);
+		text-align: center;
+		color: $primary;
+		font-size: 34px;
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.main-banner {
+
+		.banner-content {
+			padding: 50px 15px;
+
+			.main-text {
+				font-size: 42px;
+			}
+		}
+
+	}
+}

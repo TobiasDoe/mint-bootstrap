@@ -1,0 +1,11 @@
+resources/*
+
+.git-ftp-ignore
+.gitignore
+
+.jshintrc
+npm-debug.log
+package.json
+package-lock.json
+README.md
+webpack.mix.js

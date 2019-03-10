@@ -1,0 +1,51 @@
+.list-left-icon {
+	display: block;
+	position: relative;
+
+	padding-left: 60px;
+	padding-right: 15px;
+	margin: 6rem auto;
+
+	max-width: 750px;
+
+	.list-icon {
+		position: absolute;
+		top: 0;
+		left: 5px;
+		width: 40px;
+		height: auto;
+	}
+
+	.list-title {
+		padding-top: 0.13rem;
+
+		h5 {
+			font-size: 23px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 28px;
+			letter-spacing: -0.6px;
+			color: $sub_brand;
+		}
+
+	}
+
+	.list-text {
+
+		p {
+			font-size: 16px;
+			font-weight: 400;
+			font-style: normal;
+			line-height: 20px;
+			letter-spacing: -0.3px;
+		}
+
+	}
+}
+
+@include media-breakpoint-up(sm) {
+	.list-left-icon {
+		// min-height: 400px;
+		// height: 400px;
+	}
+}

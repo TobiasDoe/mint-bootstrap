@@ -1,0 +1,30 @@
+// App Scss
+$grid-breakpoints: (
+	xs: 0,
+	sm: 768px,
+	md: 992px,
+	lg: 1200px,
+	xl: 1380px
+);
+
+$primary:       #28568b !default;
+$secondary:     #ceaa61 !default;
+
+$main_brand: #ceaa61;
+$main_brand_bg: #c1c3c5;
+$sub_brand: #28568b;
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "base-styles";
+
+// layouts
+@import "layout/header_wrapper";
+@import "layout/footer_wrapper";
+@import "layout/social_footer_wrapper";
+
+// modules
+@import "modules/main_banner";
+@import "modules/big_split_banner";
+@import "modules/list_left_icon";
+@import "modules/workout_box";

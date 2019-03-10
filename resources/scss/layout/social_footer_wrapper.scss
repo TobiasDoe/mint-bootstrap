@@ -1,0 +1,22 @@
+#social-footer-wrapper {
+	background-color: $sub_brand;
+
+	.socials {
+
+		a {
+			transition: opacity .15s;
+
+			&:hover, &:focus{
+				opacity: .8;
+			}
+
+			img {
+				width: 58px;
+				height: 58px;
+			}
+
+		}
+
+	}
+
+}
