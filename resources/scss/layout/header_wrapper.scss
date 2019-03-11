@@ -23,11 +23,11 @@
 			letter-spacing: 0px;
 
 			&:hover, &:focus{
-				color: $main_brand !important;
+				color: $secondary !important;
 			}
 
 			&.active {
-				color: $main_brand !important;
+				color: $secondary !important;
 			}
 		}
 

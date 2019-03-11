@@ -1,7 +1,7 @@
 		<!-- Close main-content -->
 		</div>
 		<div class="scripts_styles">
-
+			<?php require('mix.php'); ?>
 			<!-- Styles -->
 			<link rel="stylesheet" type="text/css" href="<?php echo mix('css/styles.css'); ?>">
 			<!-- Scipts -->

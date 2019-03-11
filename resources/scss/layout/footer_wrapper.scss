@@ -23,11 +23,11 @@
 			text-transform: uppercase;
 
 			&:hover, &:focus{
-				color: $main_brand !important;
+				color: $primary !important;
 			}
 
 			&.active {
-				color: $main_brand !important;
+				color: $primary !important;
 			}
 		}
 	}

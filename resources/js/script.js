@@ -7,4 +7,4 @@ try {
 	require('bootstrap');
 } catch (e) {}
 
-console.log('fitnessland init()');
+console.log('mint init()');

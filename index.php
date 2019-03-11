@@ -1,6 +1,4 @@
 <?php
-	require('mix.php');
-
 	include('router/web.php');
 	//define page title
 	$title = isset($currentTitle) ? $currentTitle.' | Fitnessland' : 'Home | Fresh Project';

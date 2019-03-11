@@ -1,3 +1,4 @@
 # mint
+## nice & simple webpack template
 
-simple webpack powered php template
+### bootstrap & fontawesome
