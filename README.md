@@ -1,4 +1,2 @@
 # mint
-## nice & simple webpack template
-
-### bootstrap & fontawesome
+## webpack starter kit with bootstrap & router
