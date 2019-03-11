@@ -14,13 +14,17 @@ $main_brand: #5D5D5D;
 $main_brand_bg: #c1c3c5;
 $sub_brand: #523800;
 
+// Bootstrap
 @import "~bootstrap/scss/bootstrap";
+
+// Fontawesome
 @import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
 @import "node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
 @import "node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
 
 
+// Custom Styles
 @import "base-styles";
 
 // layouts
