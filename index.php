@@ -1,7 +1,7 @@
 <?php
 	include('router/web.php');
 	//define page title
-	$title = isset($currentTitle) ? $currentTitle.' | Fitnessland' : 'Home | Fresh Project';
+	$title = isset($currentTitle) ? $currentTitle.' | Mint' : 'Home | Mint';
 
 	//include header template
 	require_once('meta/header.php');
