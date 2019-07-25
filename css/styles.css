@@ -17540,6 +17540,7 @@ html.openMenu {
 .main-banner {
   display: block;
   position: relative;
+  background-image: url(/images/mint.jpg);
   background-position: top center;
   background-size: cover;
   z-index: auto;
