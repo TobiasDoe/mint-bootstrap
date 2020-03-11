@@ -17,8 +17,12 @@
 		"@fortawesome/fontawesome-free": "^5.7.2",
 		"ajv": "^6.10.0",
 		"bootstrap": "^4.3.1",
-		"webpack-mix": "^2.0.2",
 		"jquery": "^3.3.1",
-		"popper.js": "^1.14.7"
+		"popper.js": "^1.14.7",
+		"resolve-url-loader": "^3.1.0",
+		"sass": "^1.26.2",
+		"sass-loader": "^8.0.2",
+		"vue-template-compiler": "^2.6.11",
+		"webpack-mix": "^3.0.0"
 	}
 }

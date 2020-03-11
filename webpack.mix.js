@@ -1,4 +1,4 @@
-let mix = require('webpack-mix').mix;
+let mix = require('webpack-mix');
 
 /*
  |--------------------------------------------------------------------------
