@@ -13,6 +13,11 @@
 			$currentTitle = 'Home';
 			$loadPage = 'sites/home.php';
 			break;
+		case 'gridtest':
+			$currentSite = 'gridtest';
+			$currentTitle = 'GridTest';
+			$loadPage = 'sites/gridtest.php';
+			break;
 
 		default:
 			$currentSite = '404';
