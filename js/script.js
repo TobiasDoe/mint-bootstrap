@@ -2699,8 +2699,8 @@ console.log('mint init()');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/imbasto/Developer/valet/mint/resources/js/script.js */"./resources/js/script.js");
-module.exports = __webpack_require__(/*! /Users/imbasto/Developer/valet/mint/resources/scss/styles.scss */"./resources/scss/styles.scss");
+__webpack_require__(/*! /Users/tobias/Developer/gitlab/mint/resources/js/script.js */"./resources/js/script.js");
+module.exports = __webpack_require__(/*! /Users/tobias/Developer/gitlab/mint/resources/scss/styles.scss */"./resources/scss/styles.scss");
 
 
 /***/ })
