@@ -1,10 +1,10 @@
 {
     "/js/manifest.js": "/js/manifest.js?id=63f1446de3087ae5ec49",
     "/js/manifest.js.map": "/js/manifest.js.map?id=a341678c1d772f08d1a2",
-    "/js/script.js": "/js/script.js?id=ee47babcf3ed394d443f",
-    "/js/script.js.map": "/js/script.js.map?id=1de88fb77ad2a86005d6",
-    "/js/vendor.js": "/js/vendor.js?id=bc6c7663af668d8dfbb6",
-    "/js/vendor.js.map": "/js/vendor.js.map?id=584568af481deea2a320",
-    "/css/styles.css": "/css/styles.css?id=ea1cbd29db84e0605f52",
-    "/css/styles.css.map": "/css/styles.css.map?id=817bc6113b927a2b1bc5"
+    "/js/script.js": "/js/script.js?id=bc64e9b350bc03e7157c",
+    "/js/script.js.map": "/js/script.js.map?id=40be04e3b57789783a07",
+    "/js/vendor.js": "/js/vendor.js?id=312e21dad0b3e6ba6028",
+    "/js/vendor.js.map": "/js/vendor.js.map?id=02915097b13dd1725c61",
+    "/css/styles.css": "/css/styles.css?id=1322017d8f32f4d55e4d",
+    "/css/styles.css.map": "/css/styles.css.map?id=4c411d7ced7becf0daba"
 }

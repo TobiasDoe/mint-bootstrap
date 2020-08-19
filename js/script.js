@@ -2673,7 +2673,7 @@ try {
   window.$ = window.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
-} catch (e) {} // window.Fortawesome = require('@fortawesome/fontawesome-free/js/all');
+} catch (e) {} // window.Fortawesome = require('@fortawesome/fontawesome-pro/js/all');
 // jQuery should work here xD
 
 
@@ -2699,8 +2699,8 @@ console.log('mint init()');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/tobias/Developer/gitlab/mint/resources/js/script.js */"./resources/js/script.js");
-module.exports = __webpack_require__(/*! /Users/tobias/Developer/gitlab/mint/resources/scss/styles.scss */"./resources/scss/styles.scss");
+__webpack_require__(/*! /Users/imbasto/Developer/valet/mint/resources/js/script.js */"./resources/js/script.js");
+module.exports = __webpack_require__(/*! /Users/imbasto/Developer/valet/mint/resources/scss/styles.scss */"./resources/scss/styles.scss");
 
 
 /***/ })

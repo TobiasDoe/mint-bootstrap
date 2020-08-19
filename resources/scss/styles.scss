@@ -18,10 +18,12 @@ $sub_brand: #523800;
 @import "~bootstrap/scss/bootstrap";
 
 // Fontawesome
-@import "node_modules/@fortawesome/fontawesome-pro/scss/fontawesome.scss";
-@import "node_modules/@fortawesome/fontawesome-pro/scss/regular.scss";
-@import "node_modules/@fortawesome/fontawesome-pro/scss/solid.scss";
-@import "node_modules/@fortawesome/fontawesome-pro/scss/brands.scss";
+@import "~@fortawesome/fontawesome-pro/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-pro/scss/regular.scss";
+@import "~@fortawesome/fontawesome-pro/scss/solid.scss";
+@import "~@fortawesome/fontawesome-pro/scss/brands.scss";
+@import "~@fortawesome/fontawesome-pro/scss/duotone.scss";
+@import "~@fortawesome/fontawesome-pro/scss/light.scss";
 
 
 // Custom Styles
