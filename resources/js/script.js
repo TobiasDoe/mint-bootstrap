@@ -5,7 +5,7 @@ try {
 	require('bootstrap');
 } catch (e) {}
 
-// window.Fortawesome = require('@fortawesome/fontawesome-free/js/all');
+// window.Fortawesome = require('@fortawesome/fontawesome-pro/js/all');
 
 // jQuery should work here xD
 

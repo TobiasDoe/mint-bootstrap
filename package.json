@@ -14,7 +14,7 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
-		"@fortawesome/fontawesome-free": "^5.7.2",
+		"@fortawesome/fontawesome-pro": "^5.14.0",
 		"ajv": "^6.10.0",
 		"bootstrap": "^4.3.1",
 		"jquery": "^3.3.1",

@@ -15,7 +15,7 @@ mix
 	.setPublicPath('./')
 	.js('resources/js/script.js', 'js/')
 	.sass('resources/scss/styles.scss', 'css/')
-	.extract(["bootstrap", "jquery", "@fortawesome/fontawesome-free"])
+	.extract(["bootstrap", "jquery", "@fortawesome/fontawesome-pro"])
 	.sourceMaps(true, 'source-map')
 	.version();
 
