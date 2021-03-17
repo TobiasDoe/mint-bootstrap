@@ -4,15 +4,15 @@
 	$title = isset($currentTitle) ? $currentTitle.' | Mint' : 'Home | Mint';
 
 	//include header template
-	require_once('meta/header.php');
+		isset($pageParams['header']) ? require_once($pageParams['header']) : null;
+		// header_wrapper
+		isset($pageParams['header_wrapper']) ? require_once($pageParams['header_wrapper']) : null;
 
-	// header_wrapper
-	require_once('layout/header_wrapper.php');
-	// lode content here
-	include($loadPage);
-	// footer_wrapper
-	require_once('layout/footer_wrapper.php');
+		// lode content here
+		include($pageParams['page']);
 
-	//include footer template
-	require_once('meta/footer.php');
+		// footer_wrapper
+		isset($pageParams['footer_wrapper']) ? require_once($pageParams['footer_wrapper']) : null;
+		//include footer template
+		isset($pageParams['footer']) ? require_once($pageParams['footer']) : null;
 ?>
