@@ -1,5 +1,6 @@
 try {
-	window.Popper = require('popper.js').default;
+	const Popper = require('@popperjs/core');
+	window.Popper = Popper;
 	window.$ = window.jQuery = require('jquery');
 
 	require('bootstrap');
