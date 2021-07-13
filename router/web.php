@@ -3,7 +3,9 @@
 	$site = $_SERVER['PHP_SELF'];
 	$site = substr($site, 1);
 	$query = isset($_GET['q']) ? $_GET['q'] : $site;
-	// var_dump($query);
+	$server = $_SERVER['SERVER_NAME'];
+
+	$protocol = stripos($_SERVER['SERVER_PROTOCOL'],'2') ? 'https://' : 'http://';
 
 	$pageParams = [
 		'page' => 'sites/home.html',
